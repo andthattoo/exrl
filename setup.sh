@@ -10,5 +10,6 @@ pip install uv
 git clone https://github.com/willccbb/verifiers.git
 cd verifiers
 uv sync
+pip install torch
 uv pip install flash-attn --no-build-isolation
 source .venv/bin/activate
