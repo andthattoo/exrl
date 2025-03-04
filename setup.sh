@@ -1,7 +1,9 @@
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 source ~/.bashrc
-conda create -n py11 python=3.12
+eval "$(/home/ubuntu/miniconda3/bin/conda shell.bash hook)"
+conda init
+conda create -n py12 python=3.12
 conda activate py12
 pip install uv
 
